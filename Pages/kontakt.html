@@ -8,15 +8,15 @@
         <body>
                 <h1>Isabell Karlsson</h1>
         <h2>Kontakt</h2>
-                <form method="POST">
+                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
 					<fieldset>
 						<legend>Fråga</legend>
 							<p>Ärendetyp: 	<select name="ärende">
 											<option value="Fråga">Fråga</option>
 											<option value="Önskemål">Önskemål</option></select></p>
 										
-							<p>Rubrik:		<input type="text" placeholder="Vad göra?"></p>
-							<p>Fråga:		<textarea rows="2" cols="25"></textarea></p>
+							<p>Rubrik:		<input type="text" name="rubrik" placeholder="Vad göra?"></p>
+							<p>Fråga:		<textarea name="question" rows="2" cols="25" placeholder="Skriv lite här."></textarea></p>
 						
 					</fieldset>
 					<fieldset>
