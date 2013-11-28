@@ -284,3 +284,10 @@ body{
 							font-style:italic;
 							margin:0;
 							}
+						
+				/*Utskriftsvänlig version av min sida*/
+					@media print{
+							#header{display:none;}
+							#side{display:none}
+							#footer{display:none}
+							}
