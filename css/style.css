@@ -96,7 +96,7 @@ body{
 		
 		.active{
 		font-weight:bold;
-		background-color:#bcbcbc;
+		background-color:#c3d7ed;
 		}
 		
 		#side li a:visited{
@@ -164,9 +164,20 @@ body{
 		padding-bottom:5px;
 		width:100%;
 		margin:0;
-		border-bottom:1px dashed #d1d1d1;
-		
-}
+		border-bottom:1px dashed #d1d1d1;	
+		}
+				img{
+				padding:5px;
+				}
+				
+				img.left{
+				float:left;
+				}
+				
+				img.right{
+				float:right;
+				}
+				
 
 
 #footer{
@@ -248,4 +259,28 @@ body{
 							font-style:italic;
 							font-size:13px;
 							padding:0px 5px 0px 5px;
+							}
+							
+				/*TABLE*/
+						table{
+							border:1px solid #d1d1d1;
+							margin:5px 0px 0px;
+							padding:5px;
+							}
+							
+						th{
+							border:1px solid #d1d1d1;
+							padding:3px;
+							margin:0;
+							}
+						
+						td{
+							border:1px solid #d1d1d1;
+							padding:3px;
+							margin:0;
+							}
+							
+						tfoot{
+							font-style:italic;
+							margin:0;
 							}
