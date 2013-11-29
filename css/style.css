@@ -38,6 +38,21 @@ body{
 		color:#496174;
 		margin:0;
 		}
+		
+							
+		/*LINKS*/	
+				a{
+				color: #000000;
+				}
+				
+				a:hover{
+				color:#4E7A9B;
+				text-decoration:none;
+				}
+				
+				a:visited{
+				color:#496174;
+				}
 
 
 #side{
@@ -65,6 +80,7 @@ body{
 		list-style:none;
 		padding:0;
 		text-decoration:none;
+		margin-right:5px;
 		}
 		
 		#side li {
@@ -72,10 +88,19 @@ body{
 		display:block;
 		list-style:none;
 		text-decoration:none;
-		background:#fff;
+		background:#c3d7ed;
 		height:100%;
 		width:100%;
 		margin-bottom:5px;
+		
+		}
+		
+		#side li:hover{
+		color:#333;
+		text-decoration:none;
+		background:#ccc;
+		display:block;
+		
 		}
 		
 		#side li a{
@@ -85,18 +110,21 @@ body{
 		width:96%;
 		height:100%;
 		padding:10px;
+		background:#e4e4e4;
 		}
 		
 		#side li a:hover{
 		color:#333;
 		text-decoration:none;
-		background:#ccc;
+		background:#c3d7ed;
 		display:block;
+		padding:10px;
 		}
 		
 		.active{
 		font-weight:bold;
-		background-color:#c3d7ed;
+		background:#c3d7ed;
+		padding:10px;
 		}
 		
 		#side li a:visited{
@@ -119,15 +147,7 @@ body{
 		font-size:11px;
 		padding:0;
 		}
-		
-		p.date{
-		font-family:tahoma;
-		font-size:11px;
-		padding:0;
-		text-align:right;
-		font-style:italic;
-		}
-		
+				
 		h3{
 		font-family:georgia;
 		font-size:25px;
@@ -166,6 +186,17 @@ body{
 		margin:0;
 		border-bottom:1px dashed #d1d1d1;	
 		}
+		
+		p.date{
+		font-family:tahoma;
+		font-size:11px;
+		padding:5px 0px 5px 0px;
+		margin:0;
+		text-align:right;
+		font-style:italic;
+		border-top: 1px dashed #d1d1d1;
+		}
+		
 				img{
 				padding:5px;
 				}
@@ -176,41 +207,6 @@ body{
 				
 				img.right{
 				float:right;
-				}
-				
-
-
-#footer{
-	bottom:0;
-	overflow:auto;
-	width:100%;
-	height:58px;
-	border:0;
-	background-image: url(../footer.png);
-	}
-
-		h5{
-		color:#333;
-		font-family:tahoma;
-		font-size:10px;
-		text-align:center;
-		font-weight:normal;
-		padding:10px;
-		margin:0;
-		}
-		
-		/*LINKS*/	
-				a{
-				color: #000000;
-				}
-				
-				a:hover{
-				color:#4E7A9B;
-				text-decoration:none;
-				}
-				
-				a:visited{
-				color:#496174;
 				}
 
 
@@ -284,10 +280,30 @@ body{
 							font-style:italic;
 							margin:0;
 							}
+							
+						#footer{
+							bottom:0;
+							overflow:auto;
+							width:100%;
+							height:58px;
+							border:0;
+							background-image: url(../footer.png);
+							}
+						
+								h5{
+								color:#333;
+								font-family:tahoma;
+								font-size:10px;
+								text-align:right;
+								font-weight:normal;
+								padding:10px;
+								margin:0;
+								}
 						
 				/*Utskriftsvänlig version av min sida*/
 					@media print{
 							#header{display:none;}
 							#side{display:none}
 							#footer{display:none}
+							p{font-family:times new roman;}
 							}
