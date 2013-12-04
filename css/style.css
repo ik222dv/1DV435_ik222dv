@@ -15,7 +15,7 @@ body{
 
 
 #header{
-	background-image:url(../header.png);
+	background-image:url(./pics/header.png);
 	height:100px;
 	margin:-15px 0px 0px;
 	padding:20px;
@@ -62,6 +62,8 @@ body{
 	padding:10px;
 	margin:-5px 0px 0px;
 	}
+	
+
 
 		.navheader{
 		font-family:georgia;
@@ -76,10 +78,7 @@ body{
 		
 		#side ul {
 		margin:0;
-		display:block;
-		list-style:none;
 		padding:0;
-		text-decoration:none;
 		margin-right:5px;
 		}
 		
@@ -87,7 +86,6 @@ body{
 		margin:0;
 		display:block;
 		list-style:none;
-		text-decoration:none;
 		background:#c3d7ed;
 		height:100%;
 		width:100%;
@@ -97,30 +95,24 @@ body{
 		
 		#side li:hover{
 		color:#333;
-		text-decoration:none;
-		background:#ccc;
-		display:block;
-		
+		background:#ccc;		
 		}
 		
 		#side li a{
 		color:#000000;
 		text-decoration:none;
 		display:block;
-		width:96%;
-		height:100%;
-		padding:10px;
-		background:#e4e4e4;
-		}
+		height:24px;
+		background-image: url("./pics/sprite.png");
+		background-repeat:no-repeat;
+		padding:7px 0px 0 30px;
+		}	
 		
 		#side li a:hover{
 		color:#333;
 		text-decoration:none;
-		background:#c3d7ed;
-		display:block;
-		padding:10px;
 		}
-		
+			
 		.active{
 		font-weight:bold;
 		background:#c3d7ed;
@@ -131,10 +123,20 @@ body{
 		color:#333333;
 		text-decoration:none;
 		}
-
-
-
-#content{
+		
+		#home {background-position: 0 -48px;}
+		#home:hover{background-position: 0 0;}
+		
+		#labs {background-position: 0 -140px;}
+		#labs:hover{background-position: 0 -92px;}
+		
+		#contact{background-position: 0 -332px;}
+		#contact:hover{background-position: 0 -284px;}
+		
+		#pres{background-position: 0 -238px;}
+		#pres:hover{background-position: 0 -190px;}
+		
+	#content{
 	background:#efefef;
 	float:right;
 	width:75%;
@@ -174,6 +176,7 @@ body{
 		margin:0px 0px 10px 0px;
 		padding:5px;
 		background:#ffffff;
+		
 		}
 		
 		.entryheader{
@@ -287,7 +290,7 @@ body{
 							width:100%;
 							height:58px;
 							border:0;
-							background-image: url(../footer.png);
+							background-image: url(./pics/footer.png);
 							}
 						
 								h5{
