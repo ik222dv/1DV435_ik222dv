@@ -309,4 +309,6 @@ body{
 							#side{display:none}
 							#footer{display:none}
 							p{font-family:times new roman;}
+							
+							a:link:after, a:visited:after{content: "URL: "attr(href)" ";}
 							}
