@@ -261,6 +261,17 @@ body{
 							}
 							
 				/*TABLE*/
+						#knapp{
+						display:block;
+						}
+						
+						#boxhide{
+						}
+												
+						.hide{
+						display:none;
+						}
+						
 						table{
 							border:1px solid #d1d1d1;
 							margin:5px 0px 0px;
