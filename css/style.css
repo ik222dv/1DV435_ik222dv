@@ -261,17 +261,11 @@ body{
 							}
 							
 				/*TABLE*/
-						#knapp{
-						display:block;
-						}
-						
-						#boxhide{
-						}
 												
 						.hide{
-						display:none;
+							display: none;
 						}
-						
+							
 						table{
 							border:1px solid #d1d1d1;
 							margin:5px 0px 0px;
@@ -313,6 +307,11 @@ body{
 								padding:10px;
 								margin:0;
 								}
+								
+				/*UPPGIFT 5*/
+						#changeImageId{
+							max-width:875px;
+							}
 						
 				/*Utskriftsvänlig version av min sida*/
 					@media print{
