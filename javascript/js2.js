@@ -37,7 +37,7 @@ function addValue(sek) {
 	// Jag skapar också en variabel för li, vilken jag måste skapa
 	var li = document.createElement('li');
 	// Jag sätter line som en variabel och låter den avgöra hur jag vill att texten ska se ut senare
-	var line = sek + " sek= " + euro + " euro " + dollar + " dollar "; 
+	var line = sek + " sek= " + euro + " euro" + ", " + dollar + " dollar "; 
 	// Jag sätter sekTextNode som variabel och skapar sedan en textnod som heter just line
 	var sekTextNode = document.createTextNode(line);
 	// Jag bestämmer sedan att resultaten inte försvinner när man gör en ny uträkning utan hamnar under varandra på rad
